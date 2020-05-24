@@ -1,0 +1,14 @@
+object Q2{
+
+def main(args : Array[String]){
+
+  def volume_spehere(radius:Double):Double={
+
+            var vol : Double = (4.0/3.0)*(22.0/7.0)*(radius*radius*radius);
+            return vol;
+      }
+
+      println("volume of a sphere with radius  5 =" + volume_spehere(5));
+
+}
+}
